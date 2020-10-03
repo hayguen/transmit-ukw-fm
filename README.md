@@ -9,10 +9,17 @@ cd transmit-ukw-fm
 ./setup.sh
 ```
 
+if you just want the simple signal generator, amend 'car' to the setup call:
+```
+./setup.sh car
+```
+
 then, adjust configuration at top of ukw-fm-live-from-audio.sh
+  or transmit_carriers.sh
 
 ```
 nano ukw-fm-live-from-audio.sh
+nano transmit_carriers.sh
 ```
 
 # run/test
@@ -21,6 +28,14 @@ nano ukw-fm-live-from-audio.sh
 cd transmit-ukw-fm
 ./ukw-fm-live-from-audio.sh
 ```
+
+or
+
+```
+cd transmit-ukw-fm
+./transmit_carriers.sh
+```
+
 
 # legal
 
